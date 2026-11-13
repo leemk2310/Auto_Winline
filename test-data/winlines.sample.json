@@ -1,0 +1,54 @@
+[
+  {
+    "testId": "TC_WL_01",
+    "description": "Line 1 - 5 Sư tử (Wild) trên hàng giữa - Trúng thưởng cao nhất",
+    "matrix": "2,2,3,4,5,1,1,1,1,1,6,7,8,9,10",
+    "expectedWinlines": [
+      {
+        "lineIndex": 1,
+        "symbol": "Wild_Lion",
+        "count": 5,
+        "withWilds": true
+      }
+    ]
+  },
+  {
+    "testId": "TC_WL_02",
+    "description": "Line 1 - 5 Voi (Elephant) trên hàng giữa",
+    "matrix": "2,3,4,5,6,3,3,3,3,3,7,8,9,10,11",
+    "expectedWinlines": [
+      {
+        "lineIndex": 1,
+        "symbol": "Elephant",
+        "count": 5,
+        "withWilds": false
+      }
+    ]
+  },
+  {
+    "testId": "TC_WL_03",
+    "description": "Line 1 - 4 Voi + 1 Wild thay thế (Nhân đôi x2)",
+    "matrix": "2,3,4,5,6,3,3,3,1,7,8,9,10,11,12",
+    "expectedWinlines": [
+      {
+        "lineIndex": 1,
+        "symbol": "Elephant",
+        "count": 4,
+        "withWilds": true
+      }
+    ]
+  },
+  {
+    "testId": "TC_WL_04",
+    "description": "Kích hoạt 15 Vòng Quay Miễn Phí (3 Scatters Cây Hoàng Hôn)",
+    "matrix": "13,13,3,4,5,6,7,2,2,3,4,5,6,7,13",
+    "expectFreeSpins": true,
+    "expectedWinlines": [
+      {
+        "symbol": "Scatter",
+        "count": 3
+      }
+    ]
+  }
+]
+

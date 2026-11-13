@@ -1,0 +1,195 @@
+[
+  {
+    "testId": "TC_LINE_01",
+    "line": 1,
+    "description": "Kiểm tra Winline 01: 5 biểu tượng (Symbol 2) - Hàng giữa",
+    "matrix": [10, 11, 12, 10, 11, 2, 2, 2, 2, 2, 12, 10, 11, 12, 10],
+    "expectedWinlines": [
+      {
+        "lineIndex": 1,
+        "symbol": 2,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_02",
+    "line": 2,
+    "description": "Kiểm tra Winline 02: 5 biểu tượng (Symbol 3) - Hàng trên",
+    "matrix": [3, 3, 3, 3, 3, 10, 11, 12, 10, 11, 12, 10, 11, 12, 10],
+    "expectedWinlines": [
+      {
+        "lineIndex": 2,
+        "symbol": 3,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_03",
+    "line": 3,
+    "description": "Kiểm tra Winline 03: 5 biểu tượng (Symbol 4) - Hàng dưới",
+    "matrix": [10, 11, 12, 10, 11, 12, 10, 11, 12, 10, 4, 4, 4, 4, 4],
+    "expectedWinlines": [
+      {
+        "lineIndex": 3,
+        "symbol": 4,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_04",
+    "line": 4,
+    "description": "Kiểm tra Winline 04: 5 biểu tượng (Symbol 5) - Hình chữ V",
+    "matrix": [5, 10, 11, 12, 5, 11, 5, 12, 5, 10, 12, 11, 5, 10, 11],
+    "expectedWinlines": [
+      {
+        "lineIndex": 4,
+        "symbol": 5,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_05",
+    "line": 5,
+    "description": "Kiểm tra Winline 05: 5 biểu tượng (Symbol 6) - Hình chữ V ngược",
+    "matrix": [10, 11, 6, 12, 10, 11, 6, 12, 6, 11, 6, 12, 10, 11, 6],
+    "expectedWinlines": [
+      {
+        "lineIndex": 5,
+        "symbol": 6,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_06",
+    "line": 6,
+    "description": "Kiểm tra Winline 06: 5 biểu tượng (Symbol 7)",
+    "matrix": [10, 7, 7, 7, 10, 7, 11, 12, 11, 7, 12, 10, 11, 12, 10],
+    "expectedWinlines": [
+      {
+        "lineIndex": 6,
+        "symbol": 7,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_07",
+    "line": 7,
+    "description": "Kiểm tra Winline 07: 5 biểu tượng (Symbol 8)",
+    "matrix": [10, 11, 12, 10, 11, 8, 12, 10, 11, 8, 11, 8, 8, 8, 12],
+    "expectedWinlines": [
+      {
+        "lineIndex": 7,
+        "symbol": 8,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_08",
+    "line": 8,
+    "description": "Kiểm tra Winline 08: 5 biểu tượng (Symbol 9)",
+    "matrix": [9, 9, 10, 11, 12, 10, 11, 9, 12, 10, 11, 12, 10, 9, 9],
+    "expectedWinlines": [
+      {
+        "lineIndex": 8,
+        "symbol": 9,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_09",
+    "line": 9,
+    "description": "Kiểm tra Winline 09: 5 biểu tượng kết hợp",
+    "matrix": [2, 3, 4, 10, 10, 3, 4, 10, 2, 3, 10, 10, 2, 3, 4],
+    "expectedWinlines": [
+      {
+        "lineIndex": 9,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_10",
+    "line": 10,
+    "description": "Kiểm tra Winline 10: 5 biểu tượng",
+    "matrix": [2, 3, 4, 11, 2, 11, 4, 11, 2, 11, 3, 11, 2, 3, 4],
+    "expectedWinlines": [
+      {
+        "lineIndex": 10,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_11",
+    "line": 11,
+    "description": "Kiểm tra Winline 11: 5 biểu tượng",
+    "matrix": [2, 12, 3, 4, 2, 12, 3, 12, 2, 12, 4, 2, 4, 12, 3],
+    "expectedWinlines": [
+      {
+        "lineIndex": 11,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_12",
+    "line": 12,
+    "description": "Kiểm tra Winline 12: 5 biểu tượng (Symbol 2)",
+    "matrix": [2, 10, 11, 12, 2, 11, 2, 2, 2, 10, 12, 11, 10, 11, 12],
+    "expectedWinlines": [
+      {
+        "lineIndex": 12,
+        "symbol": 2,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_13",
+    "line": 13,
+    "description": "Kiểm tra Winline 13: 5 biểu tượng (Symbol 3)",
+    "matrix": [10, 11, 12, 10, 11, 11, 3, 3, 3, 10, 3, 12, 10, 11, 3],
+    "expectedWinlines": [
+      {
+        "lineIndex": 13,
+        "symbol": 3,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_14",
+    "line": 14,
+    "description": "Kiểm tra Winline 14: 5 biểu tượng (Symbol 4)",
+    "matrix": [4, 10, 4, 11, 4, 11, 4, 12, 4, 10, 12, 11, 10, 12, 11],
+    "expectedWinlines": [
+      {
+        "lineIndex": 14,
+        "symbol": 4,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "testId": "TC_LINE_15",
+    "line": 15,
+    "description": "Kiểm tra Winline 15: 5 biểu tượng (Symbol 5)",
+    "matrix": [10, 11, 12, 10, 11, 11, 5, 10, 5, 12, 5, 12, 5, 11, 5],
+    "expectedWinlines": [
+      {
+        "lineIndex": 15,
+        "symbol": 5,
+        "count": 5
+      }
+    ]
+  }
+]
+

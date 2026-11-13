@@ -1,0 +1,29 @@
+{
+  "name": "slot-winline-automation-toolkit",
+  "version": "1.1.0",
+  "description": "Universal Playwright Automation Toolkit for Slot Game Winline Verification & MP4 Recording",
+  "main": "bin/runner.js",
+  "bin": {
+    "slot-winline-runner": "./bin/runner.js"
+  },
+  "scripts": {
+    "start": "node bin/runner.js",
+    "winline": "node bin/runner.js",
+    "test": "node node_modules/@playwright/test/cli.js test",
+    "test:headed": "node node_modules/@playwright/test/cli.js test --headed",
+    "test:ui": "node node_modules/@playwright/test/cli.js test --ui",
+    "test:debug": "node node_modules/@playwright/test/cli.js test --debug",
+    "report": "node node_modules/@playwright/test/cli.js show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "slot-game",
+    "winline-checker",
+    "cocos-creator",
+    "automation-toolkit",
+    "mp4-recorder"
+  ],
+  "author": "Antigravity QA Automation Engineer",
+  "license": "ISC"
+}
